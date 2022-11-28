@@ -1,0 +1,53 @@
+__________CSS NOTES__________
+
+/* NOTES
+p {
+    background-color: red;
+    width: 100px;
+    display: inline; * This will change it so that you can display block elements next to eachother but you will lose the ability to change the width.
+}
+
+span {
+    background-color: blue;
+    width: 100px;
+    display: block; 
+}
+
+p {
+    background-color: green;
+    width: 100px;
+    display: inline-block; 
+}
+
+ p {
+    background-color: yellow;
+    width: 100px;
+    display: none; 
+ }
+
+ p {
+    visibility: hidden;
+ }
+*/
+
+__________HTML NOTES__________
+
+        <!--div = Content Division element-->
+        <!-- <span></span> Inline display elements-->
+        <!--Common inline elements
+            Span <span></img>
+            Images <img></img>
+            Anchors <a></a>
+        -->
+        <!--Position:
+            Static
+            Relative =
+                Co-ordinate Properties:
+                    Top
+                    Bottom
+                    Left
+                    Right 
+                    Each can have set values
+            Absolute
+            Fixed
+        -->

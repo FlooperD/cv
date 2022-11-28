@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -8,18 +9,24 @@ h1 {
 
 .top-container {
     background-color: #404258;
+    position: relative;
+    padding: 100px;
 }
 
-.middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+.body {
+    position: relative;
 }
 
-.bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
 
 .text {
@@ -35,32 +42,18 @@ h1 {
     text-decoration: underline;
 }
 
-/* NOTES
-p {
+/*
+
+.middle-container {
     background-color: red;
-    width: 100px;
-    display: inline; * This will change it so that you can display block elements next to eachother but you will lose the ability to change the width.
+    width: 200px;
+    height: 200px;
 }
 
-span {
+.bottom-container {
     background-color: blue;
-    width: 100px;
-    display: block; 
+    width: 200px;
+    height: 200px;
 }
 
-p {
-    background-color: green;
-    width: 100px;
-    display: inline-block; 
-}
-
- p {
-    background-color: yellow;
-    width: 100px;
-    display: none; 
- }
-
- p {
-    visibility: hidden;
- }
 */
