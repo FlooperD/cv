@@ -1,22 +1,17 @@
 body {
-    background-color: #EAF6F6;   
-   }
+    margin: 0;
+}
 
 h1 {
-    color: #66BFBF;
+    margin-top: 0px;
 }
 
-h3 {
-    color: #66BFBF;
+div {
+    background-color: #404258;
 }
-   hr {     
-       border-style: none;
-       border-top-style: dotted;
-       border-color: grey;
-       border-width: 5px;
-       width: 10%;
-   }
 
-a {
-    color: #66BFBF;
+
+/*...........IDs..........*/
+#title {
+    color: #8758FF;
 }
