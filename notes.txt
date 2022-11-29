@@ -29,7 +29,9 @@ p {
     visibility: hidden;
  }
 */
-
+Font-size: 100% = 16px. So if we want 90px do the following: 90/16= 5.625*100 = 562.5 to get it back to percentage
+    font-size: 2em; 16px = 100% = 1em (Dynamic sizing, meaning the scale up)
+Static sizing does not scale and will stay the same size irrelevant of changes in zoom percentage for example.
 __________HTML NOTES__________
 
         <!--div = Content Division element-->
