@@ -14,6 +14,12 @@ hr {
     align-items: auto;
 }    
 
+/* hr {
+    margin: 12px;
+    border: 0;
+    text-align: center;
+} */
+
 .contact-hr {
     display: flex;
     background-color: #D66853;
